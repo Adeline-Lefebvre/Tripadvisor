@@ -1,0 +1,59 @@
+body {
+  font-family: "Roboto";
+  background-color: white;
+  font-size: 16px;
+}
+
+header {
+  background-color: white;
+  width: 1135px;
+  margin: 9px auto;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 900;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 190px;
+  height: 40px;
+  display: flex;
+  margin-right: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CTA {
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  text-align: center;
+  width: 160px;
+  line-height: 35px;
+  border-radius: 25px;
+}
+
+.menu {
+  line-height: 35px;
+  margin-right: 40px;
+}
+
+.category {
+  border: black solid 1px;
+  border-radius: 15px;
+  height: 30px;
+  width: 145px;
+  padding: 17px;
+  display: flex;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
