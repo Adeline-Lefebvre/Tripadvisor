@@ -1,7 +1,7 @@
 body {
-  font-family: "Roboto";
+  font-family: "Montserrat";
   background-color: white;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 header {
@@ -11,8 +11,8 @@ header {
 }
 
 h1 {
-  font-size: 55px;
-  font-weight: 900;
+  font-size: 45px;
+  font-weight: 800;
   margin-top: 45px;
   margin-bottom: 20px;
 }
@@ -26,7 +26,7 @@ header img {
 
 header nav {
   display: flex;
-  justify-content: flex-end;
+  margin-left: 0;
 }
 
 .CTA {
@@ -42,6 +42,7 @@ header nav {
 .menu {
   line-height: 35px;
   margin-right: 40px;
+  font-size: 14px;
 }
 
 .category {
@@ -74,4 +75,24 @@ header nav {
   width: 478px;
   height: 214px;
   object-fit: cover;
+}
+
+.breadcrum {
+  margin-top: 25px;
+  color: #484848;
+  font-size: 12px;
+}
+
+.breadcrum ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.breadcrum li::before {
+  content: "> ";
+  margin-left: 5px;
+}
+
+.breadcrum li:first-child::before {
+  content: "";
 }
